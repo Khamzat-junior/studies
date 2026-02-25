@@ -1,13 +1,28 @@
-//* две правильные переменные *//
+// какой тип данных нужно использовать чтобы задать дату 
 
-let name = "john";
-let age = 30;
+let dateString = "28.02.1999";
 
-console.log(name, age);
+// ​​Какой тип данных нужен для сохранения числа ПИ
 
-// * две неправильные переменные *//
+let pi = 3.14;
 
-let 1Name = "Jonh";
-let my-name = "John";
+// Создать константу с любым значением и попытаться изменить
 
-console.log(1Name, my-name);
+// const user = "Ivan";
+// user = "Petr"; //Ошибка
+
+//Создать переменные name, address, phone
+
+let name = prompt ("Khamza");
+let address = prompt ("Grozny");
+let phone = prompt ("123321123");
+
+console.log(name, address, phone);
+
+//
+
+let rub = 160;
+let usd = 80;
+
+
+console.log(rub / usd);
