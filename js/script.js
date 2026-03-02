@@ -1,28 +1,27 @@
-// какой тип данных нужно использовать чтобы задать дату 
+// Создать константу с любым числовым значением
+const number = 10;
+const string = "Констант не меньше 10";
+console.log(string);
 
-let dateString = "28.02.1999";
+//Вам даны две переменные x и y, менять их не нужно
+let x = 10;
+let y = 7;
 
-// ​​Какой тип данных нужен для сохранения числа ПИ
+if (x > y) {
+    console.log ("x больше чем y");
+}
 
-let pi = 3.14;
+//Пользователь вводит какое-то число (num).
+let a = number(prompt("2"));
+let b = number(prompt("4"));
+let c = number(prompt("6"));
 
-// Создать константу с любым значением и попытаться изменить
+let max;
 
-// const user = "Ivan";
-// user = "Petr"; //Ошибка
-
-//Создать переменные name, address, phone
-
-let name = prompt ("Khamza");
-let address = prompt ("Grozny");
-let phone = prompt ("123321123");
-
-console.log(name, address, phone);
-
-//
-
-let rub = 160;
-let usd = 80;
-
-
-console.log(rub / usd);
+if (a > b && a > c) {
+    max = a;
+}else if (b > a && b > c) {
+    max = b;
+}else if (c > a && c > b) {
+    max = c;
+}
